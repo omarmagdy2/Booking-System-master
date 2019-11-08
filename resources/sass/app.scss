@@ -1,0 +1,68 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+@font-face
+{
+    src: url('/public/fonts/MYRIADPRO-REGULAR.OTF');
+    font-family: Myriad;
+}
+
+.container
+{
+    background: #fff;
+    width: 28em;
+    height: 38em;
+    margin: auto;
+    padding: 1% 1%;
+    box-shadow: 50px 35px 100px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+h1
+{
+    font-weight: bold;
+}
+
+.label-control{
+    display: block;
+    font-size: 1.3em;
+}
+
+.control-label{
+    font-size: 1.3em;
+    margin-right: 0.4em;
+}
+
+.error{
+    color: red;
+}
+
+.label-mar{
+    margin : 0.2em;
+    margin-right: 1.4em;
+}
+
+
+ br{
+     margin: 2em;
+ }
+.form-control{
+    width: 22em;
+}
+
+.form-group{
+    width: 22em;
+    margin: 1em auto;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
